@@ -22,16 +22,20 @@ $ chmod +x dependencies-debian.sh
 $ ./dependencies-debian.sh
 ```
 <h2>After that you will need to get the Source SDK 2013 Multiplayer</h2>
+Go to your Steam Library, and select the <b>Search Results</b> tab and select the Tools option.
 <img src="https://raw.githubusercontent.com/Defal7c/OpenFortress-LinuxInstall/master/img/tools.png">
+After that, search for <b>Source SDK 2013 Multiplayer</b>, and install it.
 <img src="https://raw.githubusercontent.com/Defal7c/OpenFortress-LinuxInstall/master/img/thisone.png">
 
 <h2>Installing Open Fortress</h2>
+
 ```bash
 # Make the installer executable
 $ chmod +x of-installer.sh
 
 # Run it
 $ ./of-installer.sh
-```
 
-Go play it or something
+# It will prompt you to type your .steam folder, wich by default goes into ~/.steam
+# If you installed Steam in another drive, you'll need to type the exact path to it.
+```
