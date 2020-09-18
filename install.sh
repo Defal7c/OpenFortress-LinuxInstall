@@ -4,7 +4,7 @@ echo This shell script uses RabbitVCS CLI.
 echo Be sure to have it on your computer before hand.
 
 STEAMDIR="$HOME/.steam/"
-echo "Type your .steam directory (Leave blank for default)"
+echo "Type your /.steam directory (Leave blank for default)"
 echo "Default: /home/$USER/.steam/"
 read -p "" STEAMDIR
 
@@ -19,5 +19,5 @@ then
  exit
 fi
 
-echo -e "The selected directory is: \e[34m$STEAMDIR/steam/steamapps/sourcemods"
-svn "$STEAMDIR/steam/steamapps/sourcemods" "https://svn.openfortress.fun/svn/open_fortress"
+echo -e "The selected directory is: \e[34m$STEAMDIR/steam/steamapps/sourcemods\e[0m"
+svn co "https://svn.openfortress.fun/svn/open_fortress" "$STEAMDIR/steam/steamapps/sourcemods/open_fortress"
