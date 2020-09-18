@@ -22,7 +22,7 @@ $ chmod +x dependencies-debian.sh
 $ ./dependencies-debian.sh
 ```
 <h2>After that you will need to get the Source SDK 2013 Multiplayer</h2>
-<img src="https://raw.githubusercontent.com/Defal7c/OpenFortress-LinuxInstall/master/img/tools.png">
+<img src="https://raw.githubusercontent.com/Defal7c/OpenFortress-LinuxInstall/img/tools.png">
 
 <h2>Installing Open Fortress</h2>
 ```bash
