@@ -6,7 +6,8 @@ Dependencies:
 - steam
 - source sdk 2013 multiplayer
 
-Literally just do 
+# Installing the dependencies
+For debian literally just do 
 ```bash
 # Clone this repository
 $ git clone -b master https://github.com/Defal7c/OpenFortress-LinuxInstall
@@ -19,10 +20,17 @@ $ chmod +x dependencies-debian.sh
 
 # Install the dependencies (debian)
 $ ./dependencies-debian.sh
+```
+<h2>After that you will need to get the Source SDK 2013 Multiplayer</h2>
 
+
+<h2>Installing Open Fortress</h2>
+```bash
 # Make the installer executable
 $ chmod +x of-installer.sh
 
 # Run it
 $ ./of-installer.sh
 ```
+
+Go play it or something
