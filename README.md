@@ -1,5 +1,5 @@
 # OpenFortress-LinuxInstall
- An automated Open Fortress instalation shell for GNU/Linux
+ An automated Open Fortress instalation shell for GNU+Linux
 
 Dependencies:
 - rabbitvcs-cli
