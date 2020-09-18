@@ -2,7 +2,7 @@
  An automated Open Fortress instalation shell for GNU/Linux
 
 Dependencies:
-- rabbitvcs cli
+- rabbitvcs-cli
 - steam
 - source sdk 2013 multiplayer
 
