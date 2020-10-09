@@ -20,5 +20,6 @@ then
 fi
 
 echo -e "The selected directory is: \e[34m$STEAMDIR/steam/steamapps/sourcemods\e[0m"
-steamcmd login anonymous force_install_dir $STEAMDIR/steam/steamapss/common/tf2/ app_update 232250
+steamcmd login anonymous force_install_dir $STEAMDIR/steam/steamapss/common/tf2/ app_update 232250 force_install_dir $STEAMDIR/steam/steamapps/common/sdk
+app_update 244310
 svn co "https://svn.openfortress.fun/svn/open_fortress" "$STEAMDIR/steam/steamapps/sourcemods/open_fortress"
