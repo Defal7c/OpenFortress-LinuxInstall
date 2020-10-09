@@ -20,4 +20,6 @@ then
 fi
 
 echo -e "The selected directory is: \e[34m$STEAMDIR/steam/steamapps/sourcemods\e[0m"
+cp install-tf2-sdk.txt $STEAMDIR/steam/
+
 svn co "https://svn.openfortress.fun/svn/open_fortress" "$STEAMDIR/steam/steamapps/sourcemods/open_fortress"
